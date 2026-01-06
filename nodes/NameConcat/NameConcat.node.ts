@@ -25,7 +25,7 @@ export class NameConcat implements INodeType {
                 type: 'string',
                 default: '',
                 placeholder: 'John',
-                description: 'The first name',
+
             },
             {
                 displayName: 'Last Name',
@@ -33,9 +33,10 @@ export class NameConcat implements INodeType {
                 type: 'string',
                 default: '',
                 placeholder: 'Doe',
-                description: 'The last name',
+
             },
         ],
+		usableAsTool: true,
     };
 
     async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
