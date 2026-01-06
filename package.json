@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-name-concat",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"description": "An n8n node to concatenate first and last names.",
 	"license": "MIT",
 	"homepage": "",
@@ -18,12 +18,8 @@
 	},
 	"scripts": {
 		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
 		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
+		"release": "n8n-node release"
 	},
 	"files": [
 		"dist",
