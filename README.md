@@ -15,7 +15,7 @@ Concatenates a `First Name` and a `Last Name` field.
 
 **Inputs:**
 * **First Name**: The first name string (e.g., "John")
-* **Last Name**: The last name string (e.g., "Doe")
+* **Last Name**: The last name string (e.g., "Doe ")
 
 **Outputs:**
 * **fullName**: The concatenated string (e.g., "John Doe")
