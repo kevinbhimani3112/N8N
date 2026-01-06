@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-name-concat",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "An n8n node to concatenate first and last names.",
 	"license": "MIT",
 	"homepage": "",
